@@ -353,7 +353,7 @@ export default function InteractivePage() {
 
         {feedback?.scene === 1 ? (
           <div className="space-y-3">
-            <NurseCard mood={feedback.result === "bad" ? "sad" : "happy"} message={feedback.text} />
+            <NurseCard expressive mood={feedback.result === "bad" ? "sad" : "happy"} message={feedback.text} />
             <button
               type="button"
               onClick={nextScene}
@@ -468,7 +468,7 @@ export default function InteractivePage() {
 
         {feedback?.scene === 2 ? (
           <div className="space-y-3">
-            <NurseCard mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
+            <NurseCard expressive mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
             <button
               type="button"
               onClick={nextScene}
@@ -552,7 +552,7 @@ export default function InteractivePage() {
 
         {feedback?.scene === 3 ? (
           <div className="space-y-3">
-            <NurseCard mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
+            <NurseCard expressive mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
             <button
               type="button"
               onClick={nextScene}
@@ -618,7 +618,7 @@ export default function InteractivePage() {
 
       {feedback?.scene === 4 ? (
         <div className="space-y-3">
-          <NurseCard mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
+          <NurseCard expressive mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
           <button
             type="button"
             onClick={nextScene}
@@ -677,7 +677,7 @@ export default function InteractivePage() {
 
       {feedback?.scene === 5 ? (
         <div className="space-y-3">
-          <NurseCard mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
+          <NurseCard expressive mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
           <button
             type="button"
             onClick={nextScene}
@@ -773,7 +773,7 @@ export default function InteractivePage() {
 
         {feedback?.scene === 6 ? (
           <div className="space-y-3">
-            <NurseCard mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
+            <NurseCard expressive mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
             <button
               type="button"
               onClick={nextScene}
@@ -827,7 +827,7 @@ export default function InteractivePage() {
 
       {feedback?.scene === 7 ? (
         <div className="space-y-3">
-          <NurseCard mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
+          <NurseCard expressive mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
           <button
             type="button"
             onClick={nextScene}
@@ -906,7 +906,7 @@ export default function InteractivePage() {
 
         {feedback?.scene === 8 ? (
           <div className="space-y-3">
-            <NurseCard mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
+            <NurseCard expressive mood={feedback.result === "good" ? "happy" : "sad"} message={feedback.text} />
             <button
               type="button"
               onClick={nextScene}
@@ -930,7 +930,7 @@ export default function InteractivePage() {
           Congratulations! You learned how to recognize and respond to hypoglycemia safely. Checking blood sugar, eating balanced meals, gentle activity, and responding to low sugar are important skills. Your animal character is happy and healthy today!
         </p>
 
-        <NurseCard mood="happy" message="Do you wish to rewind?" />
+        <NurseCard expressive mood="happy" message="Do you wish to rewind?" />
 
         <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4">
           <h3 className="text-sm font-bold text-emerald-900">Adventure Summary</h3>
@@ -1046,5 +1046,4 @@ export default function InteractivePage() {
     </div>
   );
 }
-
 
