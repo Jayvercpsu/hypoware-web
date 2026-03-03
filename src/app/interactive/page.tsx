@@ -612,7 +612,7 @@ export default function InteractivePage() {
           className="rounded-2xl border border-sky-200 bg-white p-4 text-left text-sky-900"
         >
           <p className="text-sm font-bold">Choice B</p>
-          <p className="mt-1 text-sm">Wait it out, I&apos;ll feel better eventually.</p>
+          <p className="mt-1 text-sm">Drink plenty of water.</p>
         </button>
       </div>
 
@@ -766,7 +766,7 @@ export default function InteractivePage() {
                 </span>
               ))
             ) : (
-              <span className="text-xs text-amber-800">Drag juice + sandwich here.</span>
+              <span className="text-xs text-amber-800">Drag the appropriate snacks here.</span>
             )}
           </div>
         </div>
