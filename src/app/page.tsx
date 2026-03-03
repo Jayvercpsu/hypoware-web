@@ -29,9 +29,9 @@ const quickCards = [
 export default function LandingPage() {
   return (
     <div className="space-y-8">
-      <section className="overflow-hidden rounded-3xl border border-sky-200 bg-white shadow-sm md:aspect-video">
-        <div className="pattern-bg grid h-full grid-cols-1 gap-4 p-4 sm:p-6 md:grid-cols-2 md:gap-6 md:p-8">
-          <div className="min-w-0 flex flex-col justify-center">
+      <section className="rounded-3xl border border-sky-200 bg-white shadow-sm md:aspect-video md:min-h-[36rem]">
+        <div className="pattern-bg grid min-h-[420px] grid-cols-1 gap-4 p-4 sm:p-6 md:min-h-full md:grid-cols-2 md:gap-6 md:p-8">
+          <div className="min-w-0 flex flex-col justify-start lg:justify-center">
             <p className="inline-flex w-fit items-center gap-2 rounded-full bg-sky-100 px-3 py-1 text-xs font-semibold text-sky-800">
               <IconWithFallback
                 src="/icons/info.svg"
@@ -41,7 +41,7 @@ export default function LandingPage() {
               />
               Friendly Clinic Guide
             </p>
-            <h1 className="mt-3 max-w-[22ch] break-words text-[clamp(1.8rem,8.2vw,3.1rem)] font-extrabold leading-[1.08] text-sky-950">
+            <h1 className="mt-3 max-w-[24ch] break-words text-[clamp(1.8rem,6.5vw,2.8rem)] font-extrabold leading-[1.08] text-sky-950">
               New to hypoglycemia? Don&apos;t worry, you&apos;ll be guided in every step of the way.
             </h1>
             <p className="mt-3 hidden max-w-xl text-base text-sky-900 sm:block">

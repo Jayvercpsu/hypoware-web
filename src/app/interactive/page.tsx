@@ -461,7 +461,7 @@ export default function InteractivePage() {
                 </span>
               ))
             ) : (
-              <span className="text-xs text-amber-800">Drop bread + eggs + fruit here.</span>
+              <span className="text-xs text-amber-800">Drop the ideal breakfast here.</span>
             )}
           </div>
         </div>

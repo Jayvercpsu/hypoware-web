@@ -6,11 +6,11 @@ import { IconWithFallback } from "@/components/IconWithFallback";
 const downloads = [
   {
     label: "Emergency Card",
-    path: "/downloads/emergency-card.pdf",
+    path: "/downloads/emergency-card.jpg",
   },
   {
     label: "Step by Step Hypoglycemia Checklist",
-    path: "/downloads/hypo-checklist.pdf",
+    path: "/downloads/hypo-checklist.jpg",
   },
 ];
 
