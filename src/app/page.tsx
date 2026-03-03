@@ -66,6 +66,7 @@ export default function LandingPage() {
 
           <div className="hidden items-center justify-center md:flex">
             <NurseCard
+              expressive
               mood="happy"
               message="Welcome to HypoWare. You can explore lessons, tools, and safe daily choices with me."
               className="w-full max-w-xl"
