@@ -50,6 +50,9 @@ export default function LearnPage() {
         ...topic.paragraphs,
         ...topic.bullets,
         ...topic.keywords,
+        ...topic.visuals.map((item) => `${item.title} ${item.description}`),
+        topic.gifCaption,
+        topic.emphasis ?? "",
       ]
         .join(" ")
         .toLowerCase();
@@ -64,13 +67,16 @@ export default function LearnPage() {
     }
   }, [filteredTopics, selectedTopicId]);
 
-  const selectedTopic = filteredTopics.find((topic) => topic.id === selectedTopicId) ?? filteredTopics[0];
+  const selectedTopic =
+    filteredTopics.find((topic) => topic.id === selectedTopicId) ?? filteredTopics[0];
 
   return (
     <div className="space-y-4">
       <header className="rounded-2xl border border-sky-200 bg-sky-50 p-4">
         <h1 className="text-2xl font-extrabold text-sky-950">Learn</h1>
-        <p className="mt-1 text-sm text-sky-900">Beginner-first topics with quick, practical guidance.</p>
+        <p className="mt-1 text-sm text-sky-900">
+          Beginner-first topics with visual explanations and practical actions.
+        </p>
       </header>
 
       <div className="grid gap-4 lg:grid-cols-[280px_1fr]">
@@ -116,7 +122,9 @@ export default function LearnPage() {
                   >
                     <p className="text-xs font-semibold">Topic {index + 1}</p>
                     <p className="text-sm font-bold">{topic.title}</p>
-                    {readAt ? <p className="mt-1 text-[11px]">Read: {new Date(readAt).toLocaleString()}</p> : null}
+                    {readAt ? (
+                      <p className="mt-1 text-[11px]">Read: {new Date(readAt).toLocaleString()}</p>
+                    ) : null}
                   </button>
                 );
               })
@@ -145,40 +153,45 @@ export default function LearnPage() {
               </div>
 
               <div className="rounded-2xl border border-cyan-200 bg-cyan-50 p-4">
-                <h3 className="text-sm font-bold text-cyan-900">Key Points</h3>
-                <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-cyan-900">
+                <div className="space-y-2 text-sm text-cyan-900">
                   {selectedTopic.bullets.map((bullet) => (
-                    <li key={bullet}>{highlightText(bullet, query)}</li>
+                    <p key={bullet}>
+                      <span className="font-semibold">- </span>
+                      {highlightText(bullet, query)}
+                    </p>
                   ))}
-                </ul>
+                </div>
               </div>
 
               <div className="grid gap-3 md:grid-cols-3">
-                {selectedTopic.infographicCards.map((item) => (
+                {selectedTopic.visuals.map((item) => (
                   <div
-                    key={item}
-                    className="rounded-2xl border border-sky-200 bg-sky-50 p-3 text-sm font-semibold text-sky-900"
+                    key={item.title}
+                    className="rounded-2xl border border-sky-200 bg-sky-50 p-3 text-sm text-sky-900"
                   >
-                    Infographic Placeholder
-                    <p className="mt-1 font-normal">{highlightText(item, query)}</p>
+                    <p className="text-4xl leading-none">{item.emoji}</p>
+                    <p className="mt-2 text-base font-semibold">
+                      {highlightText(item.title, query)}
+                    </p>
+                    <p className="mt-1">{highlightText(item.description, query)}</p>
                   </div>
                 ))}
               </div>
 
               <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">
-                <p className="font-bold">Video / GIF Placeholder</p>
-                <p>{highlightText(selectedTopic.videoPlaceholder, query)}</p>
+                <p className="font-bold">Video / GIF</p>
+                <p>{highlightText(selectedTopic.gifCaption, query)}</p>
                 <img
-                  src="/gifs/hypoware-health.gif"
-                  alt="HypoWare health guide animation"
-                  className="mt-3 h-40 w-full rounded-xl border border-emerald-300 bg-white object-cover p-2"
+                  src={selectedTopic.gifPath}
+                  alt={`${selectedTopic.title} visual guide`}
+                  className="mt-3 h-44 w-full rounded-xl border border-emerald-300 bg-white object-cover p-2"
                   loading="lazy"
                 />
               </div>
 
-              {selectedTopic.warning ? (
-                <p className="rounded-2xl border border-rose-200 bg-rose-50 p-4 text-base font-bold text-rose-900">
-                  {highlightText(selectedTopic.warning, query)}
+              {selectedTopic.emphasis ? (
+                <p className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-base font-semibold text-amber-900">
+                  {highlightText(selectedTopic.emphasis, query)}
                 </p>
               ) : null}
             </div>

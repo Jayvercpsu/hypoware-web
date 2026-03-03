@@ -38,14 +38,12 @@ export function AppShell({ children }: AppShellProps) {
               <span className="text-lg">=</span>
             </button>
 
-            <Link href="/" className="inline-flex items-center gap-2 rounded-full px-2 py-1">
-              <IconWithFallback
-                src="/icons/heart.svg"
+            <Link href="/" className="inline-flex items-center rounded-xl px-1 py-1">
+              <img
+                src="/images/hypoware-logo.png"
                 alt="HypoWare logo"
-                label="HypoWare"
-                className="h-9 w-9 rounded-full border border-sky-200 bg-white p-1"
+                className="h-10 w-auto object-contain sm:h-11"
               />
-              <span className="text-lg font-extrabold tracking-tight text-sky-900">HypoWare</span>
             </Link>
           </div>
 
@@ -159,14 +157,12 @@ export function AppShell({ children }: AppShellProps) {
           )}
         >
           <div className="mb-4 flex items-center justify-between">
-            <div className="inline-flex items-center gap-2">
-              <IconWithFallback
-                src="/icons/heart.svg"
+            <div className="inline-flex items-center">
+              <img
+                src="/images/hypoware-logo.png"
                 alt="HypoWare logo"
-                label="HypoWare"
-                className="h-8 w-8 rounded-full border border-sky-200 bg-white p-1"
+                className="h-9 w-auto object-contain"
               />
-              <span className="font-bold">HypoWare</span>
             </div>
             <button
               type="button"

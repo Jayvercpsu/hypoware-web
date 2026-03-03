@@ -46,7 +46,8 @@ export interface HypoWareState {
 }
 
 export const STORAGE_KEY = "hypoware_state_v1";
-export const TOTAL_GAME_SCENES = 4;
+export const TOTAL_GAME_SCENES = 8;
+export const ENDING_SCENE_INDEX = TOTAL_GAME_SCENES + 1;
 
 export const defaultHypoWareState: HypoWareState = {
   settings: {
@@ -113,7 +114,7 @@ function sanitizeGameProgress(value: unknown): GameProgress {
   }
 
   return {
-    currentSceneIndex: Math.min(5, Math.max(0, Math.floor(currentSceneIndexRaw))),
+    currentSceneIndex: Math.min(ENDING_SCENE_INDEX, Math.max(0, Math.floor(currentSceneIndexRaw))),
     selectedAvatar:
       typeof value.selectedAvatar === "string" ? value.selectedAvatar : null,
     completedScenes: uniqueCompleted,

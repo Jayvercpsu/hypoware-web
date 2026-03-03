@@ -10,7 +10,6 @@ export const navItems: NavItem[] = [
   { href: "/learn", label: "Learn", icon: "/icons/book.svg" },
   { href: "/interactive", label: "Interactive", icon: "/icons/gamepad.svg" },
   { href: "/tools", label: "Tools", icon: "/icons/tools.svg" },
-  { href: "/journal", label: "Journal", icon: "/icons/journal.svg" },
   { href: "/about", label: "About", icon: "/icons/info.svg" },
   { href: "/contact", label: "Contact", icon: "/icons/mail.svg" },
 ];

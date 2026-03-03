@@ -22,10 +22,10 @@ const dashboardTiles = [
     color: "bg-emerald-50 border-emerald-200 text-emerald-900",
   },
   {
-    href: "/journal",
-    title: "Journal",
-    description: "Track symptoms, notes, and patterns.",
-    icon: "/icons/journal.svg",
+    href: "/about",
+    title: "About",
+    description: "Learn how HypoWare was developed.",
+    icon: "/icons/info.svg",
     color: "bg-cyan-50 border-cyan-200 text-cyan-900",
   },
 ];

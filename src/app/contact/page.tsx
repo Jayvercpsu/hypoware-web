@@ -12,10 +12,6 @@ const faqItems = [
     a: "No. HypoWare is an educational support site for awareness and safer daily habits.",
   },
   {
-    q: "Does HypoWare store my data online?",
-    a: "No. All data is saved locally in your browser using LocalStorage.",
-  },
-  {
     q: "Can I use this on mobile?",
     a: "Yes. The interface is mobile-first and supports tap interactions.",
   },

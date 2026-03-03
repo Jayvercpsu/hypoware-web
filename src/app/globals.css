@@ -18,10 +18,14 @@ body {
   min-height: 100%;
 }
 
+html {
+  font-size: calc(16px * var(--text-scale));
+}
+
 body {
   margin: 0;
   font-family: "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: calc(16px * var(--text-scale));
+  font-size: 1rem;
   line-height: var(--line-height);
   color: var(--text-primary);
   background-image:

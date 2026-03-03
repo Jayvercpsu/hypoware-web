@@ -4,48 +4,48 @@ export default function AboutPage() {
       <header className="rounded-2xl border border-sky-200 bg-sky-50 p-4">
         <h1 className="text-2xl font-extrabold text-sky-950">About HypoWare</h1>
         <p className="mt-1 text-sm text-sky-900">
-          HypoWare is a web-based educational platform designed to support insulin-treated patients
-          affected by hypoglycemia through clear, guided, and all-age-friendly learning.
+          HypoWare is a web-based educational platform built to help insulin-treated patients
+          recognize, respond to, and prevent hypoglycemia through clear and friendly learning.
         </p>
       </header>
 
       <section className="rounded-2xl border border-sky-200 bg-white p-4">
-        <h2 className="text-lg font-bold text-sky-900">Product Development</h2>
+        <h2 className="text-lg font-bold text-sky-900">Why This Site Was Created</h2>
         <p className="mt-2 text-sm text-sky-900">
-          In the growing field of digital health education, HypoWare was developed to increase
-          awareness, help users recognize early symptoms of low blood sugar, and guide them toward
-          appropriate responses. The website uses a clear and user-friendly interface to support
-          users of different ages and backgrounds.
+          HypoWare was designed to improve awareness of low blood sugar and support safe daily
+          decisions. The platform aims to help users identify symptoms early, understand causes and
+          risk factors, and follow practical response steps when hypoglycemia happens.
         </p>
         <p className="mt-2 text-sm text-sky-900">
-          The implementation of content is strategically based on respondent data. If users show low
-          knowledge, HypoWare emphasizes basic information such as causes, risk factors,
-          on-the-spot treatments, and prevention. If users already have foundational knowledge,
-          HypoWare focuses on advanced safety practices and long-term lifestyle management.
+          The interface uses a light clinic environment, large visuals, and beginner-friendly
+          language so users of different ages can understand the content with less cognitive strain.
         </p>
       </section>
 
       <section className="rounded-2xl border border-cyan-200 bg-cyan-50 p-4">
-        <h2 className="text-lg font-bold text-cyan-900">Interactive Learning Approach</h2>
+        <h2 className="text-lg font-bold text-cyan-900">How HypoWare Was Developed</h2>
         <p className="mt-2 text-sm text-cyan-900">
-          Instead of passive information delivery, HypoWare uses story-based first-person scenarios.
-          Users make decisions at key moments, see possible outcomes, and learn through nurse-guided
-          dialogue. This improves active learning, confidence, and preparedness.
+          Content and flow were organized using respondent insights. When users show low
+          foundational knowledge, HypoWare emphasizes core lessons such as glucose basics,
+          symptoms, causes, quick response, and prevention. If users already understand the basics,
+          the platform supports safer long-term habits and preparedness strategies.
         </p>
         <p className="mt-2 text-sm text-cyan-900">
-          The platform also includes practical tools such as a symptom response guide, lifestyle and
-          nutrition tips, and a journal for reflections and experience tracking.
+          To move beyond passive reading, HypoWare includes an interactive first-person adventure
+          where users make decisions in guided clinic scenarios. Nurse feedback and branching
+          outcomes reinforce why each choice matters and encourage safer behavior in real-life
+          situations.
         </p>
       </section>
 
-      <section className="rounded-2xl border border-sky-200 bg-sky-50 p-4">
-        <h2 className="text-lg font-bold text-sky-900">All-Age Accessibility Notes (Tab 2)</h2>
-        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-sky-900">
-          <li>Text size supports 80% to 200% to improve readability for low-vision users.</li>
-          <li>Elderly-friendly default sizing is used while still allowing smaller/larger adjustments.</li>
-          <li>Line height options include 1.0x, 1.5x (recommended), and 2.0x.</li>
-          <li>Sans-serif typography is used for maximum clarity and reduced cognitive load.</li>
-          <li>High contrast and reduce motion options are available for comfort and accessibility.</li>
+      <section className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4">
+        <h2 className="text-lg font-bold text-emerald-900">Project Scope and Features</h2>
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-emerald-900">
+          <li>Learn module with beginner-first hypoglycemia education and visual cards.</li>
+          <li>Interactive story scenes for guided decision-making practice.</li>
+          <li>Tools module with symptom response workflow and nutrition/exercise guidance.</li>
+          <li>Contact and FAQ for support, plus local-only data handling via LocalStorage.</li>
+          <li>Accessibility settings for text size, line height, high contrast, and reduced motion.</li>
         </ul>
       </section>
 
@@ -64,7 +64,8 @@ export default function AboutPage() {
             </a>
           </li>
           <li>
-            Suroya, Torrens, & Downs (2024), Font Matters: Investigating the Typographical Components of Legibility -{" "}
+            Suroya, Torrens, & Downs (2024), Font Matters: Investigating the Typographical
+            Components of Legibility -{" "}
             <a
               href="https://rsisinternational.org/journals/ijriss/articles/font-matters-investigating-the-typographical-components-of-legibility/"
               className="underline"

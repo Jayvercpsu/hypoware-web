@@ -13,6 +13,7 @@ import {
   AppSettings,
   ContactMessage,
   defaultHypoWareState,
+  ENDING_SCENE_INDEX,
   GameProgress,
   HypoWareState,
   JournalEntry,
@@ -97,7 +98,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       completed.add(sceneIndex);
 
       const currentSceneIndex = Math.min(
-        5,
+        ENDING_SCENE_INDEX,
         Math.max(previous.progress.game.currentSceneIndex, sceneIndex),
       );
 

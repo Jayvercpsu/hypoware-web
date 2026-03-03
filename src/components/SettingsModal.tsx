@@ -41,7 +41,7 @@ export function SettingsModal({ open, onClose }: SettingsModalProps) {
 
           <div className="mt-4 flex-1 space-y-5 overflow-y-auto pr-1">
             <div>
-              <label htmlFor="text-scale" className="text-sm font-semibold text-sky-900">
+              <label htmlFor="text-scale" className="text-base font-semibold text-sky-900">
                 Text Size: {Math.round(settings.textScale * 100)}%
               </label>
               <input
@@ -56,20 +56,20 @@ export function SettingsModal({ open, onClose }: SettingsModalProps) {
                 }
                 className="mt-2 w-full accent-sky-500"
               />
-              <p className="mt-1 text-xs text-sky-700">
-                Range: 80% to 200% (standard 100%, elderly-friendly default 115%)
+              <p className="mt-1 text-sm text-sky-700">
+                Range: 80% to 200% (standard 100%, default 115%)
               </p>
             </div>
 
             <div>
-              <p className="text-sm font-semibold text-sky-900">Line Height</p>
+              <p className="text-base font-semibold text-sky-900">Line Height</p>
               <div className="mt-2 flex flex-wrap gap-2">
                 {lineHeightOptions.map((option) => (
                   <button
                     key={option}
                     type="button"
                     onClick={() => setSettings({ lineHeight: option })}
-                    className={`rounded-full border px-3 py-1 text-sm transition ${
+                    className={`rounded-full border px-3 py-1 text-base transition ${
                       settings.lineHeight === option
                         ? "border-sky-500 bg-sky-500 text-white"
                         : "border-sky-300 bg-white text-sky-900 hover:bg-sky-50"
@@ -79,17 +79,12 @@ export function SettingsModal({ open, onClose }: SettingsModalProps) {
                   </button>
                 ))}
               </div>
-              <p className="mt-1 text-xs text-sky-700">Options: 1.0x, 1.5x (recommended), 2.0x</p>
-            </div>
-
-            <div className="rounded-2xl border border-sky-200 bg-sky-50 px-4 py-3">
-              <p className="text-sm font-semibold text-sky-900">Font</p>
-              <p className="mt-1 text-sm text-sky-800">Sans-serif (simple, all-age friendly)</p>
+              <p className="mt-1 text-sm text-sky-700">Options: 1.0x, 1.5x, 2.0x</p>
             </div>
 
             <div className="space-y-3">
               <label className="flex cursor-pointer items-center justify-between rounded-2xl border border-sky-200 px-4 py-3">
-                <span className="text-sm font-medium text-sky-900">Reduce Motion</span>
+                <span className="text-base font-medium text-sky-900">Reduce Motion</span>
                 <input
                   type="checkbox"
                   checked={settings.reduceMotion}
@@ -99,7 +94,7 @@ export function SettingsModal({ open, onClose }: SettingsModalProps) {
               </label>
 
               <label className="flex cursor-pointer items-center justify-between rounded-2xl border border-sky-200 px-4 py-3">
-                <span className="text-sm font-medium text-sky-900">High Contrast (Recommended)</span>
+                <span className="text-base font-medium text-sky-900">High Contrast</span>
                 <input
                   type="checkbox"
                   checked={settings.highContrast}

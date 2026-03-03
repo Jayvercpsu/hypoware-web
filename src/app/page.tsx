@@ -4,22 +4,25 @@ import { NurseCard } from "@/components/NurseCard";
 
 const quickCards = [
   {
-    title: "Food",
-    subtitle: "Smart snacks",
-    icon: "/icons/checklist.svg",
+    title: "Learn",
+    subtitle: "Beginner-first lessons",
+    icon: "/icons/book.svg",
     className: "border-emerald-200 bg-emerald-50 text-emerald-900",
+    href: "/learn",
   },
   {
-    title: "Medicine",
-    subtitle: "Safer timing",
-    icon: "/icons/glucose.svg",
+    title: "Interactive",
+    subtitle: "Story-based adventure",
+    icon: "/icons/gamepad.svg",
     className: "border-sky-200 bg-sky-50 text-sky-900",
+    href: "/interactive",
   },
   {
-    title: "Activity",
-    subtitle: "Balanced movement",
-    icon: "/icons/heart.svg",
+    title: "Tools",
+    subtitle: "Guides and downloads",
+    icon: "/icons/tools.svg",
     className: "border-cyan-200 bg-cyan-50 text-cyan-900",
+    href: "/tools",
   },
 ];
 
@@ -73,8 +76,9 @@ export default function LandingPage() {
 
       <section className="grid gap-4 md:grid-cols-3">
         {quickCards.map((card) => (
-          <article
+          <Link
             key={card.title}
+            href={card.href}
             className={`rounded-2xl border p-4 shadow-sm transition hover:-translate-y-0.5 ${card.className}`}
           >
             <IconWithFallback
@@ -85,7 +89,7 @@ export default function LandingPage() {
             />
             <h2 className="mt-3 text-lg font-bold">{card.title}</h2>
             <p className="text-sm">{card.subtitle}</p>
-          </article>
+          </Link>
         ))}
       </section>
     </div>

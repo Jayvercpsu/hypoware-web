@@ -1,0 +1,278 @@
+
+====================================================================================================
+FILE: c:\Users\user\Downloads\Copy of Product Development_ WEBSITE.docx
+zip entries: 23
+has word/document.xml: True
+
+-- Highlighted runs (yellow) --
+[1] May Tab 2 pa po, andon po yung mga notes po namin para maging all  age friendly, and iba pa po. pacheck din po sana thank you!LOGO:
+[2] DESIGN LAYOUT/GRAPHIC INSPO:
+[3] MAROONWHITE
+[4] semi-cartoonish
+[5] Icons for food, medicine, and activities will be large, clearly labeled, and color-coded for easy recognition
+[6] VERSION 1
+[7] The colors to be used are mainly maroon and supported by white
+[8] Papalit po nong icon na nurse para mukha siyang nurse talagaEXAMPLE:
+[9] Papalit po nong tatlong asa box na food medicine and activity into Learn, Interactive, Tools
+[10] Patanggal din nung journal sa header.
+[11] Interactive scenes
+[12] Put visual nong badge na meron ka
+[13] Lahat po is may infographic placeholder sa bawat topics, papalit naman po ng text na yun into visuals or pics na dinedescribe yung nakalagay na subtext
+[14] Lahat ng andun sa \u201ckey point\u201d box is paragraph form. Pero paremove na po yung word na \u2018Key point\u201d
+[15] Patanggal po nong sentence naStart from zero knowledge and understand why glucose is important.
+[16] -Hypoglycemiahappens when your blood sugar level becomestoo low. When this happens, your body and brain don\u2019t get enough energy, which can make you feel weak, shaky, or unwell. It is common among people with diabetes, especially those who take insulin or certain medications \u2014 but it can also happen to others in some situations. Our body usesblood sugar (glucose)as its main source of energy. It comes from the food you eat, especially carbohydrates like rice, bread, and fruits.
+[17] Lahat po is may infographic placeholder sa bawat topics, papalit naman po ng text na yun into visuals or pics na dinedescribe yung nakalagay na subtext, eto po   :
+[18] A cartoon weak looking person
+[19] A cartoon low blood sugar
+[20] A cartoon elder injecting insulin
+[21] Sa videos/gifs part maglagay nalang ng gif na parang nahihilo na patient
+[22] yan po, patanggal po nong asa baba rin kasi di po sya abt sa symptoms (ung topic)
+[23] A sudden drop in blood glucose cuts off the energy source for the brain and muscles resulting in a chain of both cognitive and physical symptoms that can make everyday life hazardous. Symptoms of shakiness, extreme confusion and sudden loss of productivity as your body goes into survival mode - abandoning intricate social and mental functions - result in this "brain fog" and loss of physical energy that will hang around for hours even after your blood sugar is corrected (unless it is corrected immediately with fast-acting sugar).
+[24] Pa add po nyan aside pa po dun sa bulleted symptoms
+[25] Dun po sa part na info placeholder, pa turn po into this:
+[26] Physical Symptoms
+[27] A cartoon person shaking or trembling
+[28] Social Symptoms
+[29] A cartoon person who is experiencing slurred speech
+[30] Mental Symptoms
+[31] A cartoon person confused
+[32] Sa GIF/VID part palagay po na parang nagiging pale na patient.
+[33] -Hypoglycemia often occurs when a person'smedication timingorinsulin doseisn't perfectly synchronized with their food intake, such as when a meal is delayed or skipped entirely. Physical exertion throughincreased exerciseor the consumption ofalcoholfurther depletes the body's glucose reserves, making it difficult for the liver to maintain stable sugar levels. Additionally, external stressors likeillness or infectioncan disrupt your metabolic balance, creating an unpredictable environment where blood sugar can drop unexpectedly despite a standard routine.
+[34] Pa add ppo nyang paragraph,a aside pa po dun sa mga bullets
+[35] A phone with a medicine pop-up reminder/alarm
+[36] A risk factor checklist
+[37] No alcohol consumption sign
+[38] Palagay sa GIF/VID ang patient na nagtatake ng insulin.
+[39] -To effectively treat a blood sugar drop, you should immediately consume a fast-acting sugar like fruit juice or glucose tablets to provide the body with an instant energy boost. After eating, you must wait15 minutesto reassess your symptoms and repeat the sugar intake if your levels haven't stabilized or if you still feel unwell. Finally, once you feel better, it is crucial to eat a balanced snack containing bothcarbohydrates and proteinto prevent a second "crash" and keep your blood sugar steady.
+[40] Pa add ppo nyang paragraph,a aside pa po dun sa mga nakalagay na na steps
+[41] Foods rich in carbohydrate and protein
+[42] Fast acting snacks, drinks
+[43] Cartoonish timer of 15 minutes
+[44] For GIF/VID, person eating a snack (any kind of snack)
+[45] Maintaining a consistent daily routine is the foundation of prevention, aseating regular, balanced mealsand taking medications exactly as prescribed ensure your blood sugar stays within a healthy range. It is also essential to proactively plan for physical activity bymonitoring blood sugar levelsand eating extra snacks before exercise to offset the increased energy demand. Finally, always being prepared bycarrying a quick source of sugarallows you to intervene immediately at the first sign of a drop before symptoms become severe.
+[46] A plate filled with a full healthy meal
+[47] A cartoonish person using glucometer
+[48] A basket filled with snack
+[49] Patanggal ng \u201cIf not treated quickly, symptoms can become more serious, such as fainting or seizures. That is why early action is important.\u201d
+[50] FOR GIF/VID, just put happy person standing
+[51] OVERALL COMM; palagay po ng graphics, better po if may animated or gifs or nagalaw na images para mavisualize nila
+[52] palakihan po ng character all thru out the website na di lang po emoji sanaEXAMPLE CHARACTERS
+[53] Patanggal po ng colors red at green sa choices para di nila alam ano right answer
+[54] The items po are glucometer, thermometer and insulin. Pa add din po ng visuals ng items instead of text lang
+[55] patanggal po nong kitty na option. Sa choice din, tanggalin yung \u201cTap\u201d sa \u201cTap bed\u201d. Dapat icliclick lang mismo yung word na bed. No drag option yung choice na to.
+[56] palagay po visual na kita ang glucometer.ADDITIONALLY: pls sa pop up dialouge na \u201cAre you sure?\u201d tas sad face ng nurse pag hindi glucometer ang drinag. After the pop up tas nagconfirm, ang prompt na lalabas is \u201cYou\u2019re supposed to use the glucometer\u201d
+[57] palagay po ng visual na nahihilo
+[58] Patanggal po ng colors red at green sa foods para di alam ano tama, tas sa choices po is palagay po ng pic or visual nong food para di lang text
+[59] put visual na healthy foods
+[60] put visual of sugary foods
+[61] visual of people playing
+[62] Drag your character to the yoga mat, tas may visual p ng yoga mat then may subtext na light stretching
+[63] Drag the character to a treadmill icon na may visual po then add subtext na instense sports
+[64] Patanggal po ng colors red at green sa choices para di alam ano tanma
+[65] add visual of yoga
+[66] add visual of low blood sugar
+[67] put visual ng tired na tao
+[68] put visual of uice boxx and candy
+[69] put visual of ignoring signs
+[70] put visual of uice boxx and candy
+[71] put visual of person na nahimatay
+[72] Scene 5: Grocery Store Confusion (Disorientation)
+[73] Narrator:
+[74] \u201cYou are inside a grocery store. The lights feel too bright and you suddenly feel confused and can\u2019t remember what you were supposed to buy.\u201d Visual of picking groceries as bg.
+[75] Choices (Tap / Drag):
+[76] Ask the store worker for help and check blood sugar \u2705 \u2013 Drag glucometer to character. Visually, glucometer must show and an icon of a worker should appear.
+[77] Hide in an aisle and wait until the feeling goes away \u274c \u2013 Drag character behind shelves. Visually is putting character behind shelf icon.
+[78] Nurse Pop-Up Feedback:
+[79] If 1:
+[80] \u201cGood job! Confusion can be a sign of low blood sugar. Asking for help and checking your levels keeps you safe.\u201d (visual: worker + glucometer)
+[81] If 2:
+[82] \u201cWalking alone while confused is unsafe. Hypoglycemia can make thinking difficult.\u201d (visual: warning sign + dizzy character)
+[83] Scene 6: Birthday Party Temptation (Wrong Food Choice)
+[84] Narrator:
+[85] \u201cYou are at a birthday party. There is cake, soda, and candy everywhere. You start feeling shaky and very hungry.\u201d (Visual of birthday party background with balloons, cake table, and character holding stomach.)
+[86] Choices (Tap / Drag):
+[87] Drink juice first, then eat a balanced snack \u2705 \u2013 Drag juice + sandwich. (Visually, juice box and sandwich icons must appear.)
+[88] Eat only lots of candy and soda \u274c \u2013 Drag candy and soda to character. (Visually, character is facing multiple candy and soda icons.)
+[89] Nurse Pop-Up Feedback:
+[90] If 1:
+[91] \u201cNice! Fast sugar helps first, and balanced food keeps your blood sugar stable longer.\u201d
+[92] (visual: juice + healthy snack + happy nurse icon)
+[93] If 2:
+[94] \u201cToo much candy can cause sugar to rise fast and crash again.\u201d (visual: candy pile + warning sign + dizzy character)
+[95] Scene 7: Morning Rush (Insulin but No Breakfast)
+[96] Narrator:
+[97] \u201cYou took your insulin but rushed out of the house without eating breakfast. On the way, you feel shaky and lightheaded.\u201d
+[98] (Visual of street or bus stop background with sun rising and character holding head.)
+[99] Choices (Tap / Drag):
+[100] Stop your tracks, buy and eat snack from a nearby store \u2705 \u2013 Drag character to convenience store. (Visually, snack and drink icons appear.)
+[101] Keep walking and eat later \u274c \u2013 Drag character forward. (Visually, motion lines and dizzy symbol appear.)
+[102] Nurse Pop-Up Feedback:
+[103] If 1:
+[104] \u201cGood job! Insulin without food can cause hypoglycemia. Eating raises your blood sugar safely.\u201d (visual: snack + green check mark)
+[105] If 2:
+[106] \u201cThis is dangerous. Your blood sugar can drop too low if you don\u2019t eat soon.\u201d (visual: road + warning sign + weak character)
+[107] Scene 8: Took Too Much Insulin (Medication Error)
+[108] Narrator:
+[109] \u201cYou accidentally took more insulin than prescribed. After a while, you start feeling shaky and sweaty.\u201d
+[110] (Visual of bedroom background with insulin pen on table and character holding arm.)
+[111] Choices (Tap / Drag):
+[112] Check blood sugar first and then eat fast acting sugar \u2705 \u2013 Drag glucometer and fruit juice to character. Make this part na dapat glucometer muna before yung fruit juice and if inuna ang fruit juice is mali or cannot pick.
+[113] (Visually, glucometer and juice icons must appear.)
+[114] Lie down and wait for the feeling to pass \u274c \u2013 Drag character to bed.
+[115] (Visually, bed icon and dizzy symbol appear.)
+[116] Nurse Pop-Up Feedback:
+[117] If 1:
+[118] \u201cGood job! Too much insulin can cause hypoglycemia. Checking and treating right away keeps you safe.\u201d
+[119] (visual: glucometer + juice + happy nurse)
+[120] If 2:
+[121] \u201cWaiting can be dangerous. Low blood sugar must be treated immediately.\u201d
+[122] (visual: warning sign + weak character)
+[123] put visual of the character na may thumbs up or very good or happy
+[124] put a visual of the badge
+[125] Make the nurse look like a nurse
+[126] \u26a0\ufe0f Symptom Response Guide
+[127] should have clickable icons for each step, and each icon should have a clear label underneath (for example: \u201cNotice Symptoms,\u201d \u201cCheck Blood Sugar,\u201d \u201cTake Sugar,\u201d \u201cWait 15 Minutes,\u201d \u201cEat Snack,\u201d \u201cRest,\u201d \u201cSeek Help\u201d). When a user clicks an icon, the detailed instructions and examples appear, like symptoms to watch for, types of quick sugar, or safe snacks.
+[128] 1\ufe0f\u20e3 Notice Symptoms Early
+[129] Pay attention to early warning signs such as:
+[130] Shakiness
+[131] Sweating
+[132] Dizziness
+[133] Sudden hunger
+[134] Fast heartbeat
+[135] Confusion or irritability
+[136] Recognizing symptoms early helps prevent the condition from becoming severe.
+[137] 2\ufe0f\u20e3 Check Blood Sugar (If Possible)
+[138] If a glucometer is available, check your blood glucose level immediately to confirm hypoglycemia (usually below 70 mg/dL). If checking is not possible but symptoms are present, treat it right away.
+[139] 3\ufe0f\u20e3 Take Quick-Acting Sugar Immediately
+[140] Consume15 grams of fast-acting carbohydrates, such as:
+[141] 3\u20134 glucose tablets
+[142] \xbd cup regular (non-diet) soda
+[143] \xbd cup fruit juice
+[144] 1 tablespoon of sugar or honey dissolved in water
+[145] Avoid chocolate or fatty foods at this stage because they slow down sugar absorption.
+[146] 4\ufe0f\u20e3 Wait 15 Minutes and Recheck
+[147] Wait 15 minutes, then:
+[148] Recheck your blood sugar level.
+[149] If it is still below normal or symptoms continue, repeat the 15 grams of fast-acting sugar.
+[150] This is known as the15\u201315 Rule.
+[151] 5\ufe0f\u20e3 Eat a Carb + Protein Follow-Up Snack
+[152] Once blood sugar returns to normal, eat a balanced snack that includes:
+[153] Carbohydrates (e.g., crackers, bread, fruit)
+[154] Protein (e.g., peanut butter, cheese, egg)
+[155] This helps stabilize blood sugar and prevents another drop.
+[156] 6\ufe0f\u20e3 Rest and Avoid Strenuous Activity
+[157] Sit or lie down while recovering. Avoid exercise or physically demanding tasks until blood sugar levels are stable.
+[158] 7\ufe0f\u20e3 Inform Someone Nearby
+[159] If symptoms are severe or worsening, inform a family member, friend, teacher, or coworker so they can assist if needed.
+[160] 8\ufe0f\u20e3 Seek Medical Help if Severe
+[161] If the person becomes unconscious, has seizures, or cannot swallow:
+[162] Do NOT give food or drinks by mouth.
+[163] A trained person may administer glucagon if available.
+[164] Call emergency medical services immediately.
+[165] Lifestyle & Nutrition Tips:Simple meals, snacks, safe exercisesFor Simple meals:
+[166] Carbohydrates(rice, bread, fruits) for energy
+[167] Protein(eggs, fish, chicken, tofu) to stabilize blood sugar
+[168] Healthy fats(nuts, avocado, milk) for longer-lasting energy
+[169] Please make the content more detailed and incorporate visual elements for every meal. Each food category should be interactive. For example, when the user clicks on the \u201cCarbohydrates\u201d icon (which should have a clear visual logo such as a rice grain or bread symbol), it will open a dedicated section displaying high-quality visuals of carbohydrate-rich foods such as rice, oatmeal, bread, pasta, and potatoes.
+[170] 1\ufe0f\u20e3 Carbohydrates \u2013 Main Source of Energy
+[171] Carbs give your body glucose, which is your brain and body\u2019s primary fuel source. For people prone to low blood sugar, balanced carbs help prevent sudden drops.
+[172] Examples:
+[173] Rice (white or brown)
+[174] Whole wheat bread
+[175] Oatmeal
+[176] Sweet potatoes
+[177] Corn
+[178] Fruits (banana, apple, mango, orange)
+[179] Why it\u2019s important:Provides quick and steady energy. Choosing complex carbs (brown rice, oats, whole wheat) helps release sugar slowly into the bloodstream.
+[180] 2\ufe0f\u20e3 Protein \u2013 Stabilizes Blood Sugar
+[181] Protein slows down digestion and helps prevent rapid spikes and drops in blood sugar levels.
+[182] Examples:
+[183] Eggs
+[184] Fish (tilapia, tuna, salmon)
+[185] Chicken breast
+[186] Lean pork or beef
+[187] Tofu
+[188] Beans and lentils
+[189] Greek yogurt
+[190] Why it\u2019s important:Keeps you full longer and supports muscle repair and body functions.
+[191] 3\ufe0f\u20e3 Healthy Fats \u2013 Longer-Lasting Energy
+[192] Healthy fats slow glucose absorption and help maintain stable energy levels.
+[193] Examples:
+[194] Nuts (almonds, peanuts, cashews)
+[195] Avocado
+[196] Milk
+[197] Cheese
+[198] Olive oil
+[199] Chia seeds
+[200] Why it\u2019s important:Provides sustained energy and supports heart and brain health.
+[201] \U0001f371 Sample Simple Balanced Meals
+[202] \U0001f373 Breakfast Ideas
+[203] Boiled egg + whole wheat bread + banana
+[204] Oatmeal with milk and sliced fruits
+[205] Scrambled eggs + rice + avocado
+[206] Reason:Prevents morning hypoglycemia and gives steady energy for school or activities.
+[207] \U0001f35b Lunch Ideas
+[208] Grilled chicken + brown rice + vegetables
+[209] Fish + rice + saut\xe9ed spinach
+[210] Tofu stir-fry + rice
+[211] Reason:Balanced carbs, protein, and fiber help maintain stable blood sugar throughout the day.
+[212] \U0001f372 Dinner Ideas
+[213] Vegetable soup + grilled fish
+[214] Chicken + sweet potato + salad
+[215] Egg omelet + rice + tomatoes
+[216] Reason:Light but balanced meals prevent nighttime blood sugar drops.
+[217] \U0001f34e Healthy Snack Options (Every 3\u20134 Hours)
+[218] Small frequent meals help prevent sudden low blood sugar.
+[219] Quick Snacks:
+[220] Banana + peanut butter
+[221] Apple slices + cheese
+[222] Crackers + tuna spread
+[223] Yogurt + nuts
+[224] Trail mix
+[225] Milk + whole grain biscuit
+[226] Reason:Snacks prevent long gaps without food, which reduces risk of hypoglycemia.
+[227] Hydration Tips
+[228] Drink enough water (6\u20138 glasses daily)
+[229] Avoid too many sugary drinks
+[230] Choose fresh fruit instead of fruit juice
+[231] Reason:Proper hydration helps overall body function and energy balance.
+[232] Please make the content more detailed and incorporate visual elements for each recommended exercise. When users click on the \u201cSafe Exercises\u201d icon , it should show visuals of safe and beginner-friendly physical activities.
+[233] \U0001f3c3Safe Exercises
+[234] Regular physical activity improves insulin sensitivity and overall health \u2014 but it must be safe.
+[235] \u2714\ufe0f Recommended Exercises:
+[236] Brisk walking (20\u201330 minutes)
+[237] Light jogging
+[238] Cycling
+[239] Dancing
+[240] Yoga
+[241] Stretching exercises
+[242] \u26a0\ufe0f Safety Tips:
+[243] Eat a small snack before exercising
+[244] Monitor blood sugar if needed
+[245] Do not exercise on an empty stomach
+[246] Stay hydrated
+[247] Reason:Exercise lowers blood sugar, so preparation prevents sudden drops.
+[248] INSERT THESE TO THE LINKS :EMERGENCY CARD
+[249] STEP BY STEP HYPOGLYCEMIA CHECKLIST
+[250] Patanggal po nong word na \u201c\u201dtab 2\u2019 dun sa all age accesebility
+[251] Patanggal po nong does hypoware store my data online don sa faqs
+[252] Hindi po nagana ung sa accessibility settings, ung mga text size po and all
+[253] Overall, pa add po ng mga visuals po sa lahat kahit po options lang sya kasi need po sya para maging all age friendly. Palakihan po ng mga icons na yun. Better po if may mga nagalaw or animated na icons. More on visuals po talaga para maging catchy sya, not texts lang
+[254] ADDITIONAL OVERALL COMMENT: Patanggal ng journal section sa buong website. (Navigation, header, the page itself)
+[255] Paltan nalang sya ng \u201cabout\u201d sa dashboard na coloumn nya
+[256] Dun din sa \u201cSettings\u201d sa top right, pls remove the words:
+[257] \u201cElderly-friendly\u201d sa (standard 100%, elderly-friendly default 115%) Gawin ding default settings yung 115% ng text, so it should be bigger than the standard pag inopen.
+[258] \u201c(Recommended)\u201d sa: Options: 1.0x, 1.5x (recommended), 2.0x and make the texts bigger than average. Wag gawing minimalist ang text pero dapat neat parin.
+[259] Pakiremove ng buong sans-serif or the whole FONT section sa settings and then pakkipaltan ng font ng buong website to sans-serif
+
+no comments.xml
+
+====================================================================================================
+FILE: c:\Users\user\Downloads\Copy of Product Development_ WEBSITE (1).docx
+zip entries: 14
+has word/document.xml: True
+
+-- Highlighted runs (yellow) --
+(none)
+
+no comments.xml

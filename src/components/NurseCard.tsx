@@ -29,7 +29,10 @@ export function NurseCard({
       <div className="flex items-center gap-4">
         <div className="relative h-24 w-24 shrink-0 rounded-full bg-sky-100">
           <div className="absolute left-1/2 top-3 h-16 w-16 -translate-x-1/2 rounded-full bg-[#ffd9b5]" />
-          <div className="absolute left-1/2 top-1 h-8 w-14 -translate-x-1/2 rounded-b-3xl rounded-t-xl bg-sky-700" />
+          <div className="absolute left-1/2 top-0 h-8 w-14 -translate-x-1/2 rounded-t-2xl rounded-b-lg bg-white shadow-sm" />
+          <div className="absolute left-1/2 top-2 h-2 w-2 -translate-x-1/2 rounded-[2px] bg-rose-500" />
+          <div className="absolute left-[48%] top-2.5 h-1 w-4 -translate-x-1/2 rounded-[2px] bg-rose-500" />
+          <div className="absolute left-1/2 top-5 h-4 w-14 -translate-x-1/2 rounded-b-2xl bg-sky-700" />
           <div className="absolute left-1/2 top-9 flex -translate-x-1/2 gap-4">
             <span className={cn("rounded-full bg-slate-800", eyeClass)} />
             <span className={cn("rounded-full bg-slate-800", eyeClass)} />
@@ -42,7 +45,7 @@ export function NurseCard({
               mood === "neutral" && "bg-sky-700",
             )}
           />
-          <div className="absolute left-1/2 top-18 h-6 w-12 -translate-x-1/2 rounded-md bg-white" />
+          <div className="absolute left-1/2 top-[72px] h-7 w-12 -translate-x-1/2 rounded-md border border-sky-200 bg-white" />
         </div>
 
         <div className={cn("flex-1 rounded-2xl px-4 py-3 text-sm font-medium", moodStyles[mood])}>
