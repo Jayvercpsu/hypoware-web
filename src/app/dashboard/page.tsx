@@ -33,7 +33,7 @@ const dashboardTiles = [
 export default function DashboardPage() {
   return (
     <div className="space-y-6">
-      <NurseCard mood="happy" message="Where do you want to proceed?" />
+      <NurseCard expressive mood="happy" message="Where do you want to proceed?" />
 
       <section className="rounded-3xl border border-sky-200 bg-gradient-to-r from-sky-100 to-emerald-100 p-6 shadow-sm text-white">
         <Link
