@@ -24,8 +24,6 @@ export const learnTopics: LearnTopic[] = [
     summary: "Hypoglycemia happens when your blood sugar level becomes too low.",
     paragraphs: [
       "Hypoglycemia happens when your blood sugar level becomes too low. When this happens, your body and brain do not get enough energy, which can make you feel weak, shaky, or unwell.",
-      "It is common among people with diabetes, especially those who take insulin or certain medications, but it can also happen to others in some situations.",
-      "Our body uses blood sugar (glucose) as its main source of energy. It comes from the food you eat, especially carbohydrates like rice, bread, and fruits.",
     ],
     bullets: [
       "Glucose is the body and brain's fuel source.",
@@ -58,8 +56,6 @@ export const learnTopics: LearnTopic[] = [
     title: "Signs and Symptoms",
     summary: "Recognize warning signs early to respond before symptoms become severe.",
     paragraphs: [
-      "Signs and Symptoms include shakiness, dizziness, sweating, fast heartbeat, feeling very hungry, tiredness or weakness, and confusion or difficulty concentrating.",
-      "A sudden drop in blood glucose cuts off the energy source for the brain and muscles, resulting in both cognitive and physical symptoms. This can cause brain fog, poor concentration, and loss of physical energy.",
       "Uncommon symptoms include night sweats and nightmares that may indicate nocturnal hypoglycemia, as well as sudden palpitations and the worsening of decision making skills.",
     ],
     bullets: [
